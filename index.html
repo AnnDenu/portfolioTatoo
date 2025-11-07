@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VOLOSATIYKENT</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">VOLOSATIYKENT</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#hero" class="nav-link">Главная</a></li>
+                <li><a href="#portfolio" class="nav-link">Портфолио</a></li>
+                <li><a href="#about" class="nav-link">О мастере</a></li>
+                <li><a href="#process" class="nav-link">Процесс</a></li>
+                <li><a href="#contact" class="nav-link">Запись</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <div class="ink-wave"></div>
+    </nav>
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">Кожа как холст</span>
+                    <span class="title-line">Искусство, которое</span>
+                    <span class="title-line highlight">живет и дышит</span>
+                </h1>
+                <p class="hero-subtitle">Каждая работа получает собственное дыхание</p>
+                <a href="#portfolio" class="cta-button">
+                    <span class="cta-text">Исследовать портфолио</span>
+                    <span class="cta-arrow">→</span>
+                </a>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+    <section class="portfolio portfolio--underground" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Портфолио</h2>
+                <p class="section-subtitle">Стиль - андеграунд</p>
+            </div>
+
+            <div class="underground-header">
+                <span class="underground-badge">UNDERGROUND</span>
+                <span class="underground-note">сыро. честно. шум кожи.</span>
+            </div>
+
+            <div class="portfolio-grid" id="portfolioGrid">
+                <div class="portfolio-item portfolio-item--featured" data-category="underground">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder" style="
+                            background-image: url('img/portfolio/cat-main.jpg');
+                        "></div>
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3 class="portfolio-title">Красный прицел с котиком</h3>
+                                <p class="portfolio-style">Андеграунд</p>
+                                <p class="portfolio-description">Жесткий черный штамп с красной меткой; акцент на
+                                    взгляд, плотная фактура.</p>
+                            </div>
+                            <div class="portfolio-hover-effect"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="underground">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder" style="
+                            background-image: url('img/portfolio/cat-linework.jpg'), linear-gradient(135deg, #1f1f1f 0%, #3a3a3a 100%);
+                            background-blend-mode: normal;
+                        "></div>
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3 class="portfolio-title">Лайнворк кота</h3>
+                                <p class="portfolio-style">Андеграунд</p>
+                                <p class="portfolio-description">Минимальный контур, живые усики и шерсть; спокойный
+                                    профиль на бедре, эскизный характер линий.</p>
+                            </div>
+                            <div class="portfolio-hover-effect"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="underground">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder" style="
+                            background-image: url('img/portfolio/skull-underground.jpg'), linear-gradient(135deg, #171717 0%, #2b2b2b 100%);
+                            background-blend-mode: normal;
+                            background-position: center bottom;
+                        "></div>
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3 class="portfolio-title">Череп с подтёками</h3>
+                                <p class="portfolio-style">Андеграунд</p>
+                                <p class="portfolio-description">Густой черный штамп с дрипами и разломанной фактурой;
+                                    сырой, драматичный образ.</p>
+                            </div>
+                            <div class="portfolio-hover-effect"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="about-image-placeholder" style="background-image: url('img/about/master.jpg');"></div>
+                    <div class="about-image-overlay"></div>
+                </div>
+                <div class="about-text">
+                    <h2 class="section-title">О мастере</h2>
+                    <p class="about-description">
+                        Меня зовут Артем. Я начинающий мастер: аккуратный, внимательный к деталям и безопасности.
+                        Сейчас осознанно развиваюсь в одном направлении - андеграунд - чтобы
+                        нарабатывать чистую технику и свой характерный почерк.
+                    </p>
+                    <p class="about-description">
+                        Опыт - до года. За это время сделал три полноценные работы и продолжаю
+                        брать небольшие проекты, чтобы расти без потери качества и заботы о коже.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">до 1</div>
+                            <div class="stat-label">года опыта</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">3</div>
+                            <div class="stat-label">Работы</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">1</div>
+                            <div class="stat-label">Стиль: андеграунд</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="process" id="process">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Процесс работы</h2>
+                <p class="section-subtitle">От идеи до результата</p>
+            </div>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="process-number">01</div>
+                    <h3 class="process-title">Консультация</h3>
+                    <p class="process-description">Обсуждение идеи, стиля и размещения татуировки</p>
+                </div>
+                <div class="process-step">
+                    <div class="process-number">02</div>
+                    <h3 class="process-title">Эскиз</h3>
+                    <p class="process-description">Создание индивидуального эскиза, учитывая ваши пожелания</p>
+                </div>
+                <div class="process-step">
+                    <div class="process-number">03</div>
+                    <h3 class="process-title">Нанесение</h3>
+                    <p class="process-description">Профессиональное нанесение с учетом всех нюансов</p>
+                </div>
+                <div class="process-step">
+                    <div class="process-number">04</div>
+                    <h3 class="process-title">Уход</h3>
+                    <p class="process-description">Консультация по уходу для идеального результата</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Запись на сеанс</h2>
+                <p class="section-subtitle">Готовы создать свою историю?</p>
+            </div>
+            <div class="contact-content">
+                <div class="telegram-contact">
+                    <h3 class="telegram-title">Свяжитесь со мной в Telegram</h3>
+                    <p class="telegram-description">Напишите мне напрямую, чтобы обсудить вашу идею и записаться на
+                        сеанс</p>
+                    <a href="https://web.telegram.org/k/#@VOLOSATIYKENT" class="telegram-button" target="_blank"
+                        rel="noopener noreferrer">
+                        <span>Написать в Telegram</span>
+                    </a>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>Telegram</h3>
+                        <p><a href="https://web.telegram.org/k/#@VOLOSATIYKENT" target="_blank"
+                                rel="noopener noreferrer">VOLOSATIYKENT</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Адрес студии</h3>
+                        <p>г. Иркутск, ул. Марата, д. 70</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Часы работы</h3>
+                        <p>Пн-Сб: 10:00 - 20:00</p>
+                        <p>Вс: Выходной</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 VOLOSATIYKENT. Все права защищены.</p>
+            <p>Разработано <a href="https://web.telegram.org/k/#@annnychsept">ANUCH</a></p>
+        </div>
+    </footer>
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-outline" id="cursorOutline"></div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
